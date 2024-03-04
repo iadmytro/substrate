@@ -3618,8 +3618,7 @@ dependencies = [
 [[package]]
 name = "kvdb"
 version = "0.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e7d770dcb02bf6835887c3a979b5107a04ff4bbde97a5f0928d27404a155add9"
+source = "git+https://github.com/iadmytro/parity-common?branch=rocksdb-tweak#3f1b13af7436e8527048eafc8f38f9599556a8b2"
 dependencies = [
  "smallvec",
 ]
@@ -3627,8 +3626,7 @@ dependencies = [
 [[package]]
 name = "kvdb-memorydb"
 version = "0.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf7a85fe66f9ff9cd74e169fdd2c94c6e1e74c412c99a73b4df3200b5d3760b2"
+source = "git+https://github.com/iadmytro/parity-common?branch=rocksdb-tweak#3f1b13af7436e8527048eafc8f38f9599556a8b2"
 dependencies = [
  "kvdb",
  "parking_lot 0.12.1",
@@ -3637,8 +3635,7 @@ dependencies = [
 [[package]]
 name = "kvdb-rocksdb"
 version = "0.17.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2182b8219fee6bd83aacaab7344e840179ae079d5216aa4e249b4d704646a844"
+source = "git+https://github.com/iadmytro/parity-common?branch=rocksdb-tweak#3f1b13af7436e8527048eafc8f38f9599556a8b2"
 dependencies = [
  "kvdb",
  "num_cpus",

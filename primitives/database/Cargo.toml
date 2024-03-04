@@ -11,5 +11,5 @@ documentation = "https://docs.rs/sp-database"
 readme = "README.md"
 
 [dependencies]
-kvdb = "0.13.0"
+kvdb = { version = "0.13.0", git = "https://github.com/iadmytro/parity-common", branch = "rocksdb-tweak" }
 parking_lot = "0.12.1"
